@@ -1,0 +1,100 @@
+
+header {
+     font-style: "roboto" sans-serif;
+     text-align: center;
+     display: block;
+     height: 20px;
+     width: all px;
+     background: rgb(172, 171, 181);
+}
+
+.one {
+     font-size: 20px;
+     font-family: open;
+     color: white;
+}
+
+.two {
+     font-size: large;
+     font-family: "roboto" sans-serif;
+     color: rgb(133, 133, 148);
+     margin-left: 200px;
+}
+
+main img {
+     width: 1000px;
+     height: 678px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+body {
+     background-color: #111111;
+}
+
+.oui {
+
+     border: 1px dashed white;
+}
+
+.two {
+     display: block;
+     height: 135px;
+     width: 1000px;
+     background: rgb(46, 36, 123);
+     color: white;
+}
+
+.video {
+     padding-right: 1000px;
+}
+
+.form-container {
+     width: 80%;
+     max-width: 500px;
+     margin: 50px auto;
+     padding: 20px;
+     border: 1px solid #e0e0e0;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+     display: flex;
+     flex-direction: column;
+}
+
+label {
+     margin-top: 10px;
+     margin-bottom: 5px;
+     font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     font-size: 16px;
+     width: 100%;
+}
+
+input[type="submit"] {
+     margin-top: 15px;
+     padding: 10px 15px;
+     background-color: #007BFF;
+     border: none;
+     border-radius: 4px;
+     color: #fff;
+     cursor: pointer;
+     transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+     background-color: #0056b3;
+}
+
+ @media (max-width: 576px) { /* ... */ } 
+ 
